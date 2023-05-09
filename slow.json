@@ -1,7 +1,7 @@
 {
   "description": "Default config to check every month",
   "extends": [
-    "github>erwanjugand/renovate-config:slow"
+    "github>erwanjugand/renovate-config"
   ],
   "schedule": [
     "every 4 weeks on Saturday after 2am and before 10am"
