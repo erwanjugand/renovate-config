@@ -1,6 +1,5 @@
 {
   "description": "Default config to check every month",
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "github>erwanjugand/renovate-config:slow"
   ],
