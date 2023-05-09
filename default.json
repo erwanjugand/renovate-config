@@ -1,5 +1,5 @@
 {
-  "description": "Default configuration for Renovate",
+  "description": "Default config to check every weekend",
   "extends": [
     "config:base",
     "group:allNonMajor",

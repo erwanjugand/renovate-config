@@ -1,0 +1,10 @@
+{
+  "description": "Default config to check every month",
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>erwanjugand/renovate-config:slow"
+  ],
+  "schedule": [
+    "every 4 weeks on Saturday after 2am and before 10am"
+  ]
+}
