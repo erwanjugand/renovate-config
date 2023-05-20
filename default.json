@@ -9,7 +9,6 @@
   "schedule": [
     "after 2am and before 10am every saturday"
   ],
-  "minimumReleaseAge": "1 day",
   "lockFileMaintenance": {
     "enabled": true,
     "schedule": [
