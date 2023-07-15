@@ -10,7 +10,7 @@
     "after 2am and before 10am every saturday"
   ],
   "postUpdateOptions": [
-    "yarnDedupeHighest"
+    "pnpmDedupe"
   ],
   "lockFileMaintenance": {
     "enabled": true,
