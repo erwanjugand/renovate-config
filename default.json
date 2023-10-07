@@ -1,39 +1,25 @@
 {
   "description": "Default config to check every weekend",
   "extends": [
-    "config:base",
+    "config:recommended",
     "group:allNonMajor",
     ":semanticCommitTypeAll(chore)"
   ],
   "timezone": "Europe/Paris",
-  "schedule": [
-    "after 2am and before 10am every saturday"
-  ],
-  "postUpdateOptions": [
-    "pnpmDedupe"
-  ],
+  "schedule": ["after 2am and before 10am every saturday"],
+  "postUpdateOptions": ["pnpmDedupe"],
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": [
-      "after 2am and before 10am every saturday"
-    ]
+    "schedule": ["after 2am and before 10am every saturday"]
   },
-  "reviewers": [
-    "erwanjugand"
-  ],
-  "labels": [
-    "dependencies"
-  ],
+  "reviewers": ["erwanjugand"],
+  "labels": ["dependencies"],
   "commitBodyTable": true,
   "packageRules": [
     {
       "groupName": "Font Awesome",
-      "matchPackagePrefixes": [
-        "@fortawesome/"
-      ],
-      "matchUpdateTypes": [
-        "major"
-      ]
+      "matchPackagePrefixes": ["@fortawesome/"],
+      "matchUpdateTypes": ["major"]
     }
   ],
   "hostRules": [
