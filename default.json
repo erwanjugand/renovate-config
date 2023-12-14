@@ -25,6 +25,14 @@
       "groupName": "Stylelint",
       "matchPackagePrefixes": ["stylelint"],
       "matchUpdateTypes": ["major"]
+    },
+    {
+      "groupName": "Action Artifact",
+      "matchPackagePatterns": [
+        "actions/upload-artifact",
+        "actions/download-artifact"
+      ],
+      "matchUpdateTypes": ["major"]
     }
   ],
   "hostRules": [
