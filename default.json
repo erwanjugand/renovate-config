@@ -20,6 +20,11 @@
       "groupName": "Font Awesome",
       "matchPackagePrefixes": ["@fortawesome/"],
       "matchUpdateTypes": ["major"]
+    },
+    {
+      "groupName": "Stylelint",
+      "matchPackagePrefixes": ["stylelint"],
+      "matchUpdateTypes": ["major"]
     }
   ],
   "hostRules": [
