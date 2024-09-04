@@ -34,14 +34,5 @@
       ],
       "matchUpdateTypes": ["major"]
     }
-  ],
-  "hostRules": [
-    {
-      "matchHost": "https://npm.fontawesome.com/",
-      "hostType": "npm",
-      "encrypted": {
-        "token": "wcFMA/xDdHCJBTolAQ//fhxqmtWzDCwONW/J2Wud/pFWu6UOrVlg/iq/llW9sMm1QsfHTH5MW1P/pdcb7Z1FD0TzcZIdN3UJ1yxRpJN5zBli6RLMFbJGciLWLkyzm229Rm0UnmkRSW0iHggp1DYvP6W8iTXMNRdDrkSSemE8ZVMOKgpDEq81pLhq/Wxarm2Fe2YMiNPYILFDFe3l8Hwi35WWWBGoZQoRHXwU9KeyM2oJxnWj5LeAsJ+5aTzKv466kOtoL8dsvRD5aJuwbXWtfK5Vs7OGOsjnXe5WZiOWy4/oc44xoXw9EVZ8P2cO066uxCmslp/AZ3aPhwsmSOhza1FkZM374UVH6xY8/ZsnPkx9AxJ2oRmAERCIUuvK6TYqI6k5H5KjjSh/XNPPxQkj74voHTmvV6RF1yr+GpnbItGKzd1RV98j1uqcobWmRCN2hP4jxrxsDOyWE8a+qMBNDGxdzLN1SD3AJrM6KDn5EFjpo+6SLPpB8oARqzYw5MUe5cniRpiR4CSMBRt6Cw1dZ1F0avritqLTKJQmQOWq/OU1io6MZjE8xF3lwPXJI5SlSJF8go0jKTNJYAFBzRuDeJAro8DTNZBFl4AXWOxhBoU9Y/r8Ib/H9keVqwtOvmlSzqOOPStmDJ8V1yDttSMHH2lKLRHnR4BInQ2vw5AekJEK4zAyCMPlRIFH0vF7A0jSdgGcsRm68RdvJjC1ykrRkT8kuHgLj+tvcPZJQk58CLxNXBtiEO886v0lfJ2KhmfpB9mUfj2sBvbu4RlqYR9dlIix1zAdgxAaiMatZq4jbKfOASl/6/MJKxyr+aeLAgMelUSOjOtnrd8U5khhmk8RQdG1w0jj1t4"
-      }
-    }
   ]
 }
