@@ -18,17 +18,17 @@
   "packageRules": [
     {
       "groupName": "Font Awesome",
-      "matchPackagePrefixes": ["@fortawesome/"],
+      "matchPackageNames": ["@fortawesome/**"],
       "matchUpdateTypes": ["major"]
     },
     {
       "groupName": "Stylelint",
-      "matchPackagePrefixes": ["stylelint"],
+      "matchPackageNames": ["stylelint**/**"],
       "matchUpdateTypes": ["major"]
     },
     {
       "groupName": "Action Artifact",
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "actions/upload-artifact",
         "actions/download-artifact"
       ],
