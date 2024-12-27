@@ -33,17 +33,6 @@
         "actions/download-artifact"
       ],
       "matchUpdateTypes": ["major"]
-    },
-    {
-      "allowedVersions": "<5.7",
-      "description": "Wait for vue-tsc to support this version",
-      "matchPackageNames": ["typescript"]
-    },
-    {
-      "allowedVersions": "<6",
-      "description": "Wait Nuxt support this version",
-      "matchPackageNames": ["vite"]
-
     }
   ]
 }
