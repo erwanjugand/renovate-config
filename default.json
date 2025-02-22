@@ -33,6 +33,13 @@
         "actions/download-artifact"
       ],
       "matchUpdateTypes": ["major"]
+    },
+    {
+      "groupName": "vue-tsc",
+      "matchPackageNames": [
+        "vue-tsc"
+      ],
+      "allowedVersions": "<=2.2.0 || >2.2.2"
     }
   ]
 }
