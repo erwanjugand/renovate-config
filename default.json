@@ -2,8 +2,12 @@
   "description": "Default config to check every weekend",
   "extends": [
     "config:recommended",
-    "group:allNonMajor",
-    ":semanticCommitTypeAll(chore)"
+    ":pinDependencies",
+    ":pinDevDependencies",
+    ":configMigration",
+    ":semanticCommitTypeAll(chore)",
+    "abandonments:recommended",
+    "group:allNonMajor"
   ],
   "timezone": "Europe/Paris",
   "schedule": ["after 4am and before 10am every saturday"],
@@ -27,12 +31,8 @@
       "matchUpdateTypes": ["major"]
     },
     {
-      "groupName": "Action Artifact",
-      "matchPackageNames": [
-        "actions/upload-artifact",
-        "actions/download-artifact"
-      ],
-      "matchUpdateTypes": ["major"]
+      "matchUpdateTypes": ["major"],
+      "schedule": ["at any time"]
     }
   ]
 }
