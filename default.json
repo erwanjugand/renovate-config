@@ -6,15 +6,15 @@
     ":pinDevDependencies",
     ":configMigration",
     ":semanticCommitTypeAll(chore)",
-    "abandonments:recommended",
     "group:allNonMajor"
   ],
   "timezone": "Europe/Paris",
-  "schedule": ["after 4am and before 10am every saturday"],
+  "schedule": [" *4-9 * * 6"],
   "postUpdateOptions": ["pnpmDedupe"],
+  "abandonmentThreshold": "2 years",
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": ["after 4am and before 10am every saturday"]
+    "schedule": ["* 4-9 * * 6"]
   },
   "reviewers": ["erwanjugand"],
   "labels": ["dependencies"],
