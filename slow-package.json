@@ -1,6 +1,6 @@
 {
   "description": "Default config for packages",
-  "extends": ["github>erwanjugand/renovate-config:slow-package"],
+  "extends": ["github>erwanjugand/renovate-config:slow"],
   "packageRules": [
   {
     "matchDepTypes": ["dependencies", "peerDependencies"],
