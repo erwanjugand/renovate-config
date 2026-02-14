@@ -34,10 +34,6 @@
     {
       "matchUpdateTypes": ["major"],
       "schedule": ["at any time"]
-    },
-    {
-      "matchPackageNames": ["eslint"],
-      "allowedVersions": "<9.39.0"
     }
   ]
 }
