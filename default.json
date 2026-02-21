@@ -10,12 +10,12 @@
     "group:allNonMajor"
   ],
   "timezone": "Europe/Paris",
-  "schedule": ["* 4-9 * * 6"],
+  "schedule": ["* 6-9 * * 6"],
   "postUpdateOptions": ["pnpmDedupe"],
   "abandonmentThreshold": "2 years",
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": ["* 4-9 * * 6"]
+    "schedule": ["* 6-9 * * 6"]
   },
   "reviewers": ["erwanjugand"],
   "labels": ["dependencies"],

@@ -1,8 +1,8 @@
 {
   "description": "Default config to check every month",
   "extends": ["github>erwanjugand/renovate-config"],
-  "schedule": ["* 4-9 1-7 * 6"],
+  "schedule": ["* 6-9 1-7 * 6"],
   "lockFileMaintenance": {
-    "schedule": ["* 4-9 1-7 * 6"]
+    "schedule": ["* 6-9 1-7 * 6"]
   }
 }
