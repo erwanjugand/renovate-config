@@ -27,14 +27,14 @@
       "matchUpdateTypes": ["major"]
     },
     {
-      "groupName": "Stylelint",
       "matchPackageNames": ["stylelint**/**"],
-      "matchUpdateTypes": ["major"]
+      "matchUpdateTypes": ["major"],
+      "schedule": ["at any time"]
     },
     {
-      "groupName": "Eslint",
       "matchPackageNames": ["@erwanjugand/eslint-config", "eslint"],
-      "matchUpdateTypes": ["major"]
+      "matchUpdateTypes": ["major"],
+      "schedule": ["at any time"]
     },
     {
       "matchUpdateTypes": ["major"],
