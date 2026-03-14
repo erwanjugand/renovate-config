@@ -17,6 +17,7 @@
     "enabled": true,
     "schedule": ["* 5-9 * * 6"]
   },
+  "prHourlyLimit": 0,
   "reviewers": ["erwanjugand"],
   "labels": ["dependencies"],
   "commitBodyTable": true,
