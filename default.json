@@ -40,6 +40,11 @@
     {
       "matchUpdateTypes": ["major"],
       "schedule": ["at any time"]
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "matchPackageNames": ["pnpm/action-setup"],
+      "allowedVersions": "<6"
     }
   ]
 }
