@@ -1,4 +1,5 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Default config to check every month",
   "extends": ["github>erwanjugand/renovate-config"],
   "schedule": ["* 5-9 1-7 * 6"],

@@ -1,4 +1,5 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Default config to check every weekend",
   "extends": [
     "config:recommended",
@@ -45,6 +46,18 @@
       "matchManagers": ["github-actions"],
       "matchPackageNames": ["pnpm/action-setup"],
       "allowedVersions": "<6"
+    }
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": ["^\\.github/workflows/.*\\.yml$"],
+      "matchStrings": [
+        "wranglerVersion:\\s*['\"]?(?<currentValue>[^'\"\\s]+)['\"]?"
+      ],
+      "depNameTemplate": "wrangler",
+      "datasourceTemplate": "npm",
+      "versioningTemplate": "npm"
     }
   ]
 }
