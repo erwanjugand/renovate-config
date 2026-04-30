@@ -3,10 +3,11 @@
   "description": "Default config to check every weekend",
   "extends": [
     "config:recommended",
+    "docker:pinDigests",
     "helpers:pinGitHubActionDigests",
+    ":configMigration",
     ":pinDependencies",
     ":pinDevDependencies",
-    ":configMigration",
     ":semanticCommitTypeAll(chore)",
     "group:allNonMajor"
   ],
@@ -23,6 +24,14 @@
   "labels": ["dependencies"],
   "commitBodyTable": true,
   "packageRules": [
+    {
+      "matchDatasources": ["npm"],
+      "minimumReleaseAge": "3 days"
+    },
+    {
+      "matchPackageNames": ["@erwanjugand/*"],
+      "minimumReleaseAge": null
+    },
     {
       "groupName": "Font Awesome",
       "matchPackageNames": ["@fortawesome/**"],
