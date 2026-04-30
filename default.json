@@ -25,12 +25,8 @@
   "commitBodyTable": true,
   "packageRules": [
     {
-      "matchDatasources": ["npm"],
-      "minimumReleaseAge": "3 days"
-    },
-    {
-      "matchPackageNames": ["@erwanjugand/*"],
-      "minimumReleaseAge": null
+      "minimumReleaseAge": "1 day",
+      "matchPackageNames": ["!@erwanjugand/*"]
     },
     {
       "groupName": "Font Awesome",
@@ -60,7 +56,7 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": ["^\\.github/workflows/.*\\.yml$"],
+      "managerFilePatterns": ["/^\\.github/workflows/.*\\.yml$/"],
       "matchStrings": [
         "wranglerVersion:\\s*['\"]?(?<currentValue>[^'\"\\s]+)['\"]?"
       ],
