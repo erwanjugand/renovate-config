@@ -63,6 +63,16 @@
       "depNameTemplate": "wrangler",
       "datasourceTemplate": "npm",
       "versioningTemplate": "npm"
+    },
+    {
+      "customType": "regex",
+      "managerFilePatterns": ["/^\\.nuxtrc$/"],
+      "matchStrings": [
+        "setups\\.@nuxt/test-utils=\"(?<currentValue>[^\"]+)\""
+      ],
+      "depNameTemplate": "@nuxt/test-utils",
+      "datasourceTemplate": "npm",
+      "versioningTemplate": "npm"
     }
   ]
 }
