@@ -66,6 +66,16 @@
     },
     {
       "customType": "regex",
+      "managerFilePatterns": ["/^\\.github/workflows/.*\\.yml$/"],
+      "matchStrings": [
+        "conventional-changelog-conventionalcommits@(?<currentValue>[^\\s]+)"
+      ],
+      "depNameTemplate": "conventional-changelog-conventionalcommits",
+      "datasourceTemplate": "npm",
+      "versioningTemplate": "npm"
+    },
+    {
+      "customType": "regex",
       "managerFilePatterns": ["/^\\.nuxtrc$/"],
       "matchStrings": [
         "setups\\.@nuxt/test-utils=\"(?<currentValue>[^\"]+)\""
