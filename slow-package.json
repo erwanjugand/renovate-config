@@ -1,11 +1,15 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Default config for packages",
-  "extends": ["github>erwanjugand/renovate-config:slow"],
+  "extends": ["github>erwanjugand/renovate-config"],
+  "schedule": ["* 5-9 1-7 * 6"],
+  "lockFileMaintenance": {
+    "schedule": ["* 5-9 1-7 * 6"]
+  },
   "packageRules": [
-  {
-    "matchDepTypes": ["dependencies", "peerDependencies"],
-    "rangeStrategy": "widen"
-  }
-]
+    {
+      "matchDepTypes": ["dependencies", "peerDependencies"],
+      "rangeStrategy": "widen"
+    }
+  ]
 }
