@@ -29,6 +29,11 @@
       "matchPackageNames": ["!@erwanjugand/*"]
     },
     {
+      "matchManagers": ["github-actions"],
+      "matchDepNames": ["kevinmarrec/workflows"],
+      "enabled": false
+    },
+    {
       "groupName": "Font Awesome",
       "matchPackageNames": ["@fortawesome/**"],
       "matchUpdateTypes": ["major"]
