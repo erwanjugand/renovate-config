@@ -51,6 +51,11 @@
     {
       "matchUpdateTypes": ["major"],
       "schedule": ["at any time"]
+    },
+    {
+      "matchPackageNames": ["typescript"],
+      "description": "Wait for the community packages to update.",
+      "allowedVersions": "<7"
     }
   ],
   "customManagers": [
