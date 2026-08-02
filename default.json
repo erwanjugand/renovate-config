@@ -34,6 +34,11 @@
       "enabled": false
     },
     {
+      "matchDepNames": ["conventional-changelog-conventionalcommits"],
+      "description": "v10 not work with cycjimmy/semantic-release-action",
+      "allowedVersions": "9.x"
+    },
+    {
       "groupName": "Font Awesome",
       "matchPackageNames": ["@fortawesome/**"],
       "matchUpdateTypes": ["major"]
