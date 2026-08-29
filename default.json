@@ -12,12 +12,12 @@
     "group:allNonMajor"
   ],
   "timezone": "Europe/Paris",
-  "schedule": ["* 5-9 * * 6"],
+  "schedule": ["* 2-9 * * 6"],
   "postUpdateOptions": ["pnpmDedupe"],
   "abandonmentThreshold": "2 years",
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": ["* 5-9 * * 6"]
+    "schedule": ["* 2-9 * * 6"]
   },
   "prHourlyLimit": 0,
   "reviewers": ["erwanjugand"],
