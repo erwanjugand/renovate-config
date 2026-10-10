@@ -29,6 +29,11 @@
       "matchPackageNames": ["!@erwanjugand/*"]
     },
     {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["mcr.microsoft.com/playwright"],
+      "minimumReleaseAgeBehaviour": "timestamp-optional"
+    },
+    {
       "matchManagers": ["github-actions"],
       "matchDepNames": ["kevinmarrec/workflows"],
       "enabled": false
